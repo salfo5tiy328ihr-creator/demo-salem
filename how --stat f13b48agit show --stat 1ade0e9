@@ -1,0 +1,64 @@
+[33mcommit f13b48a38bf3f1fb76a77496b128f6ea8fcba3c4[m
+Author: salfo5tiy328ihr-creator <salfo5tiy328ihr@gmail.com>
+Date:   Tue Sep 15 15:47:08 2026 +0300
+
+    add project files
+
+ .editorconfig                                      |    18 [32m+[m
+ .env.example                                       |    65 [32m+[m
+ .gitattributes                                     |    11 [32m+[m
+ .gitignore                                         |    27 [32m+[m
+ .npmrc                                             |     2 [32m+[m
+ AGENTS.md                                          |    47 [32m+[m
+ CLAUDE.md                                          |    47 [32m+[m
+ README.md                                          |    58 [32m+[m
+ app/Http/Controllers/CategoryControl.php           |     0
+ app/Http/Controllers/CategoyRequest.php            |     0
+ app/Http/Controllers/Controller.php                |     8 [32m+[m
+ app/Http/Controllers/ProductControl.php            |     0
+ app/Http/Controllers/Requests                      |     0
+ app/Models/Category.php                            |     0
+ app/Models/Product.php                             |     0
+ app/Models/User.php                                |    32 [32m+[m
+ app/Providers/AppServiceProvider.php               |    24 [32m+[m
+ artisan                                            |    18 [32m+[m
+ bootstrap/app.php                                  |    21 [32m+[m
+ bootstrap/cache/.gitignore                         |     2 [32m+[m
+ bootstrap/providers.php                            |     7 [32m+[m
+ composer.json                                      |    91 [32m+[m
+ composer.lock                                      | 10035 [32m+++++++++++++++++++[m
+ config/app.php                                     |   126 [32m+[m
+ config/auth.php                                    |   117 [32m+[m
+ config/cache.php                                   |   136 [32m+[m
+ config/database.php                                |   184 [32m+[m
+ config/filesystems.php                             |    80 [32m+[m
+ config/logging.php                                 |   140 [32m+[m
+ config/mail.php                                    |   118 [32m+[m
+ config/queue.php                                   |   129 [32m+[m
+ config/services.php                                |    38 [32m+[m
+ config/session.php                                 |   233 [32m+[m
+ database/.gitignore                                |     1 [32m+[m
+ database/factories/CategoryFactory.php             |     0
+ database/factories/ProductFactory.php              |     0
+ database/factories/UserFactory.php                 |    45 [32m+[m
+ .../0001_01_01_000000_create_users_table.php       |    49 [32m+[m
+ .../0001_01_01_000001_create_cache_table.php       |    35 [32m+[m
+ .../0001_01_01_000002_create_jobs_table.php        |    59 [32m+[m
+ database/seeders/DatabaseSeeder.php                |    25 [32m+[m
+ package.json                                       |    19 [32m+[m
+ phpunit.xml                                        |    36 [32m+[m
+ public/.htaccess                                   |    25 [32m+[m
+ public/favicon.ico                                 |     0
+ public/index.php                                   |    20 [32m+[m
+ public/robots.txt                                  |     2 [32m+[m
+ resources/css/app.css                              |     9 [32m+[m
+ resources/js/app.js                                |     1 [32m+[m
+ resources/views/Categories/index.blade.php         |     0
+ resources/views/Categories/show.blade.php          |     0
+ resources/views/Products/index.blade.php           |     0
+ .../views/tables/index.blade.php/index.blade.php   |     0
+ resources/views/welcome.blade.php                  |   223 [32m+[m
+ routes/console.php                                 |     8 [32m+[m
+ routes/web.php                                     |     6 [32m+[m
+ storage/app/.gitignore                             |     4 [32m+[m
+ storage/app/private/.gitignore        
